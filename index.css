@@ -17,18 +17,13 @@ body {
 margin:auto;
     height: 900px;
     width: 100%;
-
 transform-origin: top;
     background-color: transparent;
     background-image: url(images/css_sprites.webp);
-
     background-repeat:no-repeat;
     background-position: center;
     background-size: 1980px 28992px;
-
         display: block;
-      
-        
         animation:alternate-reverse anim 2.2s steps(32) infinite;
         animation-fill-mode:both;
         -webkit-animation-fill-mode: both;
@@ -45,7 +40,6 @@ transform-origin: top;
       opacity: 10%;
     background: rgb(132,252,70);
 background: radial-gradient(circle, rgba(132,252,70,1) 0%, rgba(71,180,52,1) 100%); 
-
 animation:alternate-reverse grad 0.4s;
 animation-fill-mode:both;
 animation-delay: 0s;
@@ -59,7 +53,6 @@ animation-delay: 0s;
       opacity: 10%;
     background: #fd2c3d;
 background: radial-gradient(circle, rgb(253, 44, 61) 0%, rgb(87, 28, 4) 100%); 
-
 animation:alternate-reverse grad 0.4s;
 animation-fill-mode:both;
 animation-delay: 0s;
@@ -71,7 +64,6 @@ main{
     min-width: 200px;
     min-height: 15%;
     margin:auto;
- 
     border-radius: 20px;
 }
 
@@ -122,10 +114,6 @@ input {
     background: white;
     border-radius: 6px;
     text-align: center;
-   
-   
-    
-   
 }
 
 button {
@@ -136,31 +124,13 @@ button {
     padding: 4px 10px;
     border-radius: 6px;
     margin: 0 4px;
-  
-    
 }
 
 .buttons-wrapper {
     display: flex;
     justify-content: center;
     margin: 10px 0 0;
-   
-  
 }
-
-/* anim{
-    background-color: transparent;
-    background-image: url(images/spritesheet.webp);
-    background-repeat: no-repeat;
-      
-        display: block;
-      
-        animation:alternate-reverse anim 1s steps(32) infinite;
-        animation-fill-mode: both;
-        animation-delay: 1s;
-          /* width: 1024px;
-        height: 1024px; */
-    
 
 
 @keyframes anim{
